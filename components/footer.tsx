@@ -5,21 +5,21 @@ const Footer = () => {
     <footer className="mt-12 flex items-center justify-between border-t">
       <div className="flex items-center justify-between pt-4 pb-8">
         <span>
-          Made by{" "}
+          Built by{" "}
           <Link href="#" externalLink>
-            Ryan Furrer
+            Walter Furrer
           </Link>{" "}
           &copy; {new Date().getFullYear()}
         </span>
       </div>
       <div className="flex items-center justify-center gap-4">
-        <Link href="https://github.com/ryandotfurrer" externalLink>
+        <Link href="https://github.com/walterfurrer" externalLink>
           GitHub
         </Link>
-        <Link href="https://x.com/ryandotfurrer" externalLink>
+        <Link href="https://x.com/waltercodes" externalLink>
           Twitter (X)
         </Link>
-        <Link href="https://www.linkedin.com/in/ryanfurrer/" externalLink>
+        <Link href="https://www.linkedin.com/in/walterfurrer/" externalLink>
           LinkedIn
         </Link>
       </div>

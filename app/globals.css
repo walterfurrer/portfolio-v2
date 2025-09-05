@@ -134,8 +134,4 @@
   main a {
     @apply text-blue-600 dark:text-blue-500;
   }
-
-  .inline-code {
-    @apply bg-muted p-1 font-mono text-sm;
-  }
 }

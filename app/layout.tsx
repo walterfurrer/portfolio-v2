@@ -23,9 +23,9 @@ const plexSerif = IBM_Plex_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "RF Next Starter",
+  title: "Walter Furrer Portfolio",
   description:
-    "A minimal starter for Next.js projects that includes Next.js, Tailwind CSS, and shadcn/ui.",
+    "A portfolio site for Walter Furrer, featuring projects, experience, articles, and contact information.",
 };
 
 export default function RootLayout({

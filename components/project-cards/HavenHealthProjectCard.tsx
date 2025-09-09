@@ -11,7 +11,7 @@ export default function HavenHealthProjectCard() {
   return (
     <div id="haven-health" className="project-card">
       <div className="card-content">
-        <h3 className="text-lg">Haven Health</h3>
+        <h3 className="project-title">Haven Health</h3>
         <p>
           A full-stack demo application for a fictional community health clinic
           built, built with Next.js, Supabase, Tailwind CSS, and shadcn/ui.
@@ -25,29 +25,26 @@ export default function HavenHealthProjectCard() {
             Dallas Software Developer Cohort Program
           </Link>{" "}
           ran by{" "}
-          <Link target="_blank" href="#">
+          <Link target="_blank" href="https://www.dthompsondev.com/">
             Danny Thompson
           </Link>
           .
         </p>
-        <div className="flex justify-between">
-          <div id="technologies" className="technlologies">
+        <div className="project-tech-links">
+          <div className="project-technlologies">
             <Image src={nextjsLight} alt="Next.js Logo" />
             <Image src={supabase} alt="Supabase Logo" />
             <Image src={tailwindcss} alt="Tailwind CSS Logo" />
             <Image src={shadcn} alt="shadcn/ui Logo" />
           </div>
-          <div className="text-muted-foreground/60 flex gap-4">
+          <div className="project-links">
             <Link
               target="_blank"
-              href="https://github.com/walterfurrer/portfolio-v2"
+              href="https://github.com/walterfurrer/dsd-haven-health"
             >
               <SiGithub size={24} />
             </Link>
-            <Link
-              target="_blank"
-              href="https://github.com/walterfurrer/portfolio-v2"
-            >
+            <Link target="_blank" href="#">
               <Globe size={24} />
             </Link>
           </div>

@@ -64,7 +64,7 @@
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
+  --border: oklch(0.14 0 0);
   --input: oklch(0.922 0 0);
   --ring: oklch(0.708 0 0);
   --chart-1: oklch(0.646 0.222 41.116);
@@ -145,6 +145,21 @@
     @apply flex flex-col gap-8;
   }
   .section-header {
-    @apply font-mono text-xl;
+    @apply font-mono text-xl md:px-4;
+  }
+  .project-card {
+    @apply hover:bg-card hover:border-border rounded-3xl border-2 border-transparent transition ease-in-out hover:-translate-y-2 hover:scale-102 md:p-4;
+  }
+  .section-content {
+    @apply flex flex-col gap-4 md:px-4;
+  }
+  .card-content {
+    @apply flex flex-col gap-2;
+  }
+  .project-title {
+    @apply text-xl;
+  }
+  .technlologies {
+    @apply flex size-6 gap-4;
   }
 }

@@ -39,7 +39,7 @@ export default function Home() {
         <div id="projects-grid" className="flex flex-col">
           <div
             id="haven-health"
-            className="hover:bg-muted trasnition flex flex-col gap-2 rounded-3xl p-4 duration-300 ease-in-out hover:scale-110 hover:shadow-2xl hover:transition hover:duration-300 hover:ease-in-out"
+            className="hover:bg-muted hover:border-accent-teal flex flex-col gap-2 rounded-3xl p-4 transition duration-300 ease-in-out hover:scale-110 hover:border-2 hover:shadow-2xl hover:transition hover:duration-300 hover:ease-in-out"
           >
             <h3 className="text-lg">Haven Health</h3>
             <p>
@@ -55,11 +55,11 @@ export default function Home() {
                 Danny Thompson
               </Link>
               .
-              <p>
-                A full-stack demo application for a fictional community health
-                clinic built, built with Next.js, Supabase, Tailwind CSS, and
-                shadcn/ui.
-              </p>
+            </p>
+            <p>
+              A full-stack demo application for a fictional community health
+              clinic built, built with Next.js, Supabase, Tailwind CSS, and
+              shadcn/ui.
             </p>
             <div className="flex justify-between">
               <div id="technologies" className="flex gap-4">

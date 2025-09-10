@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, Code } from "lucide-react";
+import { BriefcaseBusiness, Code, Plane } from "lucide-react";
 import Link from "next/link";
 
 export default function Currently() {
@@ -18,6 +18,16 @@ export default function Currently() {
               EV MNGR
             </Link>
             .
+          </p>
+        </div>
+        <div className="flex gap-2">
+          <Plane className="text-muted-foreground" />
+          <p>
+            Attending the{" "}
+            <Link target="_blank" href="#">
+              Commit Your Code Conference
+            </Link>{" "}
+            9/25 - 9/26.
           </p>
         </div>
       </div>

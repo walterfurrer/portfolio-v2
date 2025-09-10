@@ -1,0 +1,39 @@
+import Image from "next/image";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import danny from "../../public/danny_nut.webp";
+import BackHomeButton from "@/components/BackHomeButton";
+
+export default function CycHeader() {
+  return (
+    <header className="flex flex-col gap-8 text-2xl">
+      <div className="section-content">
+        <BackHomeButton />
+        <Image
+          src="/pfp-cropped.webp"
+          alt="Walter Furrer headshot"
+          width={96}
+          height={96}
+          className="rounded-full"
+        ></Image>
+        <div>
+          <h1 className="font-sans font-medium">Hi, I'm Walter.</h1>
+          <p className="text-muted-foreground">
+            It was great meeting you at Commit Your Code!
+          </p>
+          <Popover>
+            <PopoverTrigger className="text-muted-foreground flex cursor-pointer gap-2 text-xs">
+              Isn't Danny the best?
+            </PopoverTrigger>
+            <PopoverContent className="size-48 rounded-lg p-0">
+              <Image src={danny} alt={"Danny Thomposon"} />
+            </PopoverContent>
+          </Popover>
+        </div>
+      </div>
+    </header>
+  );
+}

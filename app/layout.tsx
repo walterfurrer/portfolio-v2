@@ -20,7 +20,10 @@ const mono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Walter Furrer",
+  title: {
+    template: "%s | Walter Furrer",
+    default: "Walter Furrer",
+  },
   description:
     "A portfolio site for Walter Furrer, featuring projects, experience, articles, and contact information.",
 };
@@ -38,7 +41,7 @@ export default function RootLayout({
         <div className="flex flex-col">
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
+            defaultTheme="light"
             enableSystem
             disableTransitionOnChange
           >

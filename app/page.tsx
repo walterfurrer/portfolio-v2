@@ -3,6 +3,7 @@ import Currently from "@/components/Currently";
 import Header from "@/components/Header";
 import ModeToggle from "@/components/ModeToggle";
 import Projects from "@/components/Projects";
+import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Currently />
       <Projects />
       <Background />
+      <ContactSection />
     </div>
   );
 }

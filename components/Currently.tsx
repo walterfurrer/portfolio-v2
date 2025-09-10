@@ -1,5 +1,9 @@
-import { BriefcaseBusiness, Code, Plane } from "lucide-react";
 import Link from "next/link";
+import {
+  AirplaneIcon,
+  BriefcaseIcon,
+  CodeIcon,
+} from "@phosphor-icons/react/dist/ssr";
 
 export default function Currently() {
   return (
@@ -7,21 +11,21 @@ export default function Currently() {
       <h2 className="section-header">currently</h2>
       <div className="section-content">
         <div className="flex gap-2">
-          <BriefcaseBusiness />
-          <p>Actively searching for Web Devloper roles. Locally or remote!</p>
+          <BriefcaseIcon weight="regular" className="size-6" />
+          <p>Searching for Web Devloper opportunities.</p>
         </div>
         <div className="flex gap-2">
-          <Code className="text-muted-foreground" />
+          <CodeIcon weight="regular" className="size-6" />
           <p>
             Learning new skills while building{" "}
-            <Link target="_blank" href="#">
+            <Link href={"https://github.com/walterfurrer/ev-mngr"}>
               EV MNGR
             </Link>
             .
           </p>
         </div>
         <div className="flex gap-2">
-          <Plane className="text-muted-foreground" />
+          <AirplaneIcon weight="regular" className="size-6" />
           <p>
             Attending the{" "}
             <Link target="_blank" href="#">

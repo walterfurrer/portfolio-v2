@@ -14,10 +14,10 @@ export default function CycHeader() {
         <BackHomeButton />
         <Image
           src="/pfp-cropped.webp"
-          alt="Walter Furrer headshot"
           width={96}
           height={96}
           className="rounded-full"
+          alt={"Photo of Walter Furrer"}
         ></Image>
         <div>
           <h1 className="font-sans font-medium">Hi, I'm Walter.</h1>

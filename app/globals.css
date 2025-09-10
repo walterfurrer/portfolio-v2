@@ -168,4 +168,7 @@
   .project-links {
     @apply text-muted-foreground/60 flex gap-4;
   }
+  .debug {
+    @apply border border-red-500;
+  }
 }

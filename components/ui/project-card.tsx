@@ -1,6 +1,8 @@
 import { ProjectCardProps } from "@/lib/projectCardProps";
-import { SiGithub } from "@icons-pack/react-simple-icons";
-import { Globe } from "lucide-react";
+import {
+  GithubLogoIcon,
+  GlobeSimpleIcon,
+} from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -25,12 +27,12 @@ export default function ProjectCard({
       <div className="project-links">
         {githubUrl && (
           <Link target="_blank" href={githubUrl}>
-            <SiGithub size={24} />
+            <GithubLogoIcon size={24} />
           </Link>
         )}
         {liveUrl && (
           <Link target="_blank" href={liveUrl}>
-            <Globe size={24} />
+            <GlobeSimpleIcon size={24} />
           </Link>
         )}
       </div>

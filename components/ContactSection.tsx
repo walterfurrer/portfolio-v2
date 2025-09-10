@@ -13,34 +13,54 @@ export default function ContactSection() {
       <h2 className="section-header">contact</h2>
       <div className="section-content">
         <div className="flex gap-2">
-          <Link target="_blank" href="mailto:walterfurrer.dev@gmail.com">
-            <EnvelopeSimpleIcon weight="bold" className="size-6" />
+          <EnvelopeSimpleIcon weight="bold" className="size-6" />
+          <Link
+            className="hover:text-accent-teal font-normal"
+            href="mailto:walterfurrer.dev@gmail.com"
+            target="_blank"
+          >
+            walterfurrer.dev@gmail.com
           </Link>
-          <p>walterfurrer.dev@gmail.com</p>
         </div>
         <div className="flex gap-2">
-          <Link target="_blank" href="https://github.com/walterfurrer">
-            <GithubLogoIcon weight="bold" className="size-6" />
+          <GithubLogoIcon weight="bold" className="size-6" />
+          <Link
+            className="hover:text-accent-teal font-normal"
+            href="https://github.com/walterfurrer"
+            target="_blank"
+          >
+            github.com/walterfurrer
           </Link>
-          <p>github.com/walterfurrer</p>
         </div>
         <div className="flex gap-2">
-          <Link target="_blank" href="https://linkedin.com/walterfurrer">
-            <LinkedinLogoIcon weight="bold" className="size-6" />
+          <LinkedinLogoIcon weight="bold" className="size-6" />
+          <Link
+            className="hover:text-accent-teal font-normal"
+            href="https://www.linkedin.com/in/walterfurrer/"
+            target="_blank"
+          >
+            linkedin.com/in/walterfurrer
           </Link>
-          <p>linkedin.com/walterfurrer</p>
         </div>
         <div className="flex gap-2">
-          <Link target="_blank" href="https://x.com/waltercodes">
-            <XLogoIcon weight="bold" className="size-6" />
+          <XLogoIcon weight="bold" className="size-6" />
+          <Link
+            className="hover:text-accent-teal font-normal"
+            href="https://x.com/waltercodes"
+            target="_blank"
+          >
+            x.com/waltercodes
           </Link>
-          <p>x.com/waltercodes</p>
         </div>
         <div className="flex gap-2">
-          <Link target="_blank" href="https://cal.com/walterfurrer">
-            <WebcamIcon weight="bold" className="size-6" />
+          <WebcamIcon weight="bold" className="size-6" />
+          <Link
+            className="hover:text-accent-teal font-normal"
+            href="https://cal.com/walterfurrer"
+            target="_blank"
+          >
+            cal.com/walterfurrer
           </Link>
-          <p>cal.com/walterfurrer</p>
         </div>
       </div>
     </section>

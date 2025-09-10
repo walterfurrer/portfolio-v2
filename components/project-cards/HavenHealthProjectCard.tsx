@@ -1,10 +1,12 @@
-import { SiGithub } from "@icons-pack/react-simple-icons";
-import { Globe } from "lucide-react";
+import {
+  GithubLogoIcon,
+  GlobeSimpleIcon,
+} from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
 import nextjsLight from "../../public/technology-logos/nextjs-light.svg";
-import supabase from "../../public/technology-logos/supabase.svg";
 import shadcn from "../../public/technology-logos/shadcn.svg";
+import supabase from "../../public/technology-logos/supabase.svg";
 import tailwindcss from "../../public/technology-logos/tailwindcss.svg";
 
 export default function HavenHealthProjectCard() {
@@ -42,10 +44,10 @@ export default function HavenHealthProjectCard() {
               target="_blank"
               href="https://github.com/walterfurrer/dsd-haven-health"
             >
-              <SiGithub size={24} />
+              <GithubLogoIcon weight="bold" size={24} />
             </Link>
             <Link target="_blank" href="#">
-              <Globe size={24} />
+              <GlobeSimpleIcon weight="bold" size={24} />
             </Link>
           </div>
         </div>

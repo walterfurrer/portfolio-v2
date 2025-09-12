@@ -5,9 +5,11 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import nextjsLight from "../../public/technology-logos/nextjs-light.svg";
-import shadcn from "../../public/technology-logos/shadcn.svg";
+import shadcnLight from "../../public/technology-logos/shadcn-light.svg";
+import shadcnDark from "../../public/technology-logos/shadcn-dark.svg";
 import supabase from "../../public/technology-logos/supabase.svg";
 import tailwindcss from "../../public/technology-logos/tailwindcss.svg";
+import nextjsDark from "../../public/technology-logos/nextjs-dark.svg";
 
 export default function HavenHealthProjectCard() {
   return (
@@ -34,10 +36,28 @@ export default function HavenHealthProjectCard() {
         </p>
         <div className="project-tech-links">
           <div className="project-technlologies">
-            <Image src={nextjsLight} alt="Next.js Logo" />
+            <Image
+              src={nextjsLight}
+              alt="Next.js Logo"
+              className="dark:hidden"
+            />
+            <Image
+              src={nextjsDark}
+              alt="Next.js Logo"
+              className="hidden dark:flex"
+            />
             <Image src={supabase} alt="Supabase Logo" />
             <Image src={tailwindcss} alt="Tailwind CSS Logo" />
-            <Image src={shadcn} alt="shadcn/ui Logo" />
+            <Image
+              src={shadcnLight}
+              alt="shadcn/ui Logo"
+              className="dark:hidden"
+            />
+            <Image
+              src={shadcnDark}
+              alt="shadcn/ui Logo"
+              className="hidden dark:flex"
+            />
           </div>
           <div className="project-links">
             <Link

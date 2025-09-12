@@ -9,6 +9,12 @@ export default function Background() {
           development. I don't just build applications; I build solutions
           informed by a deep understanding of what end-users truly need.
         </p>
+        <p>
+          Today, I apply that same problem-solving mindset to building intuitive
+          and reliable web applications using Next.js, React, Tailwind CSS, and
+          more. My goal is to bridge the gap between user needs and technical
+          execution, creating products people love to use.
+        </p>
       </div>
     </section>
   );

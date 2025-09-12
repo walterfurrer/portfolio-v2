@@ -12,7 +12,13 @@ export default function Currently() {
       <div className="section-content">
         <div className="flex gap-2">
           <BriefcaseIcon weight="regular" className="size-6" />
-          <p>Searching for Web Devloper opportunities.</p>
+          <div className="inline-flex">
+            <p>Searching for Web Devloper opportunities.</p>
+            <span className="relative flex size-3">
+              <span className="bg-accent-teal absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
+              <span className="bg-accent-teal/90 relative inline-flex size-3 rounded-full"></span>
+            </span>
+          </div>
         </div>
         <div className="flex gap-2">
           <CodeIcon weight="regular" className="size-6" />

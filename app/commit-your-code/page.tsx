@@ -19,7 +19,7 @@ export default function CommitYourCode() {
             <Image
               alt="Walter's CYC Angle Investors"
               src={waltersangels}
-              className="border-border rounded-4xl border-2"
+              className="border-border dark:border-foreground rounded-4xl border-2"
             />
             <figcaption className="text-muted-foreground text-center text-sm">
               From left to right: Shashi Lo, Abbey Perini, Bethany Ann, Ryan

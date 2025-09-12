@@ -1,10 +1,4 @@
 import Image from "next/image";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
-import danny from "../../public/danny_nut.webp";
 import BackHomeButton from "@/components/BackHomeButton";
 
 export default function CycHeader() {
@@ -24,14 +18,6 @@ export default function CycHeader() {
           <p className="text-muted-foreground">
             It was great meeting you at Commit Your Code!
           </p>
-          <Popover>
-            <PopoverTrigger className="text-muted-foreground flex cursor-pointer gap-2 text-xs">
-              Isn't Danny the best?
-            </PopoverTrigger>
-            <PopoverContent className="size-48 rounded-lg p-0">
-              <Image src={danny} alt={"Danny Thomposon"} />
-            </PopoverContent>
-          </Popover>
         </div>
       </div>
     </header>

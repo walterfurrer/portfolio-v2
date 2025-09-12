@@ -1,14 +1,14 @@
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { ArrowLeftIcon } from "@phosphor-icons/react/dist/ssr";
 
 export default function BackHomeButton() {
   return (
-    <Button
-      asChild
-      variant="default"
-      className="flex self-end rounded-lg drop-shadow-sm/50 transition duration-150 active:translate-y-0.5 active:scale-97 active:drop-shadow-none"
-    >
-      <Link href="/">Back to Home</Link>
+    <Button asChild variant="link" className="group flex self-end-safe">
+      <Link href="/">
+        <ArrowLeftIcon className="inline-block transition-transform duration-150 group-hover:-translate-x-1.5" />
+        View my Portfolio
+      </Link>
     </Button>
   );
 }

@@ -31,7 +31,7 @@ export default function CommitYourCode() {
               src={waltersangels}
               className="border-border dark:border-foreground rounded-4xl border-2"
             />
-            <figcaption className="text-muted-foreground text-center text-sm">
+            <figcaption className="text-muted-foreground mt-2 text-center text-sm">
               From left to right: Shashi Lo, Abbey Perini, Bethany Ann, Ryan
               Furrer, Thomas Nguyen
             </figcaption>
@@ -64,14 +64,14 @@ export default function CommitYourCode() {
           <p>
             You can find my socials and contact information below! I'm always
             down for a video call to talk tech, jobs, etc. as well! If you're
-            interested in scheduling a time to catch up, use{" "}
+            interested in scheduling a time to catch up,{" "}
             <Link
               target="_blank"
               href="https://cal.com/walterfurrer/post-cyc-chat"
             >
-              this link
-            </Link>{" "}
-            so I know that we met at CYC!
+              book a call
+            </Link>
+            !
           </p>
         </div>
       </section>

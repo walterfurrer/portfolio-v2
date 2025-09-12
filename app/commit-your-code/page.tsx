@@ -4,13 +4,16 @@ import waltersangels from "../../public/cyc-angel-investors.png";
 import Image from "next/image";
 import ContactSection from "@/components/ContactSection";
 import Link from "next/link";
+import BackHomeButton from "@/components/BackHomeButton";
 
 export default function CommitYourCode() {
   return (
     <div className="flex flex-col gap-32 px-4 font-sans md:px-0">
       <ModeToggle />
       <CycHeader />
+
       <section className="section">
+        <BackHomeButton />
         <div className="section-header">
           <h2>a huge shoutout</h2>
         </div>
@@ -26,7 +29,7 @@ export default function CommitYourCode() {
               Furrer, Thomas Nguyen
             </figcaption>
           </figure>
-          <div>
+          <div className="flex flex-col gap-4">
             <p>
               I need to give a huge <span className="font-bold">THANK YOU</span>{" "}
               to the lovely folks pictured above. Since losing my job in

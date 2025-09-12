@@ -1,11 +1,9 @@
 import Image from "next/image";
-import BackHomeButton from "@/components/BackHomeButton";
 
 export default function CycHeader() {
   return (
     <header className="flex flex-col gap-8 text-2xl">
       <div className="section-content">
-        <BackHomeButton />
         <Image
           src="/pfp-cropped.webp"
           width={96}

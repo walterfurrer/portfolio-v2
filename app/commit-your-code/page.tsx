@@ -5,6 +5,13 @@ import Image from "next/image";
 import ContactSection from "@/components/ContactSection";
 import Link from "next/link";
 import BackHomeButton from "@/components/BackHomeButton";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "CYC 2025",
+  description:
+    "A page for those I met at Commit Your Code 2025, as well as a thank you to those who helped me attend it.",
+};
 
 export default function CommitYourCode() {
   return (

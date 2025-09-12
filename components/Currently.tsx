@@ -16,7 +16,7 @@ export default function Currently() {
             <p>Searching for Web Devloper opportunities.</p>
             <span className="relative flex size-3">
               <span className="bg-accent-teal absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
-              <span className="bg-accent-teal/90 relative inline-flex size-3 rounded-full"></span>
+              <span className="bg-accent-teal relative inline-flex size-3 rounded-full"></span>
             </span>
           </div>
         </div>

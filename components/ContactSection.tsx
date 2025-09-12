@@ -14,13 +14,7 @@ export default function ContactSection() {
       <div className="section-content">
         <div className="flex gap-2">
           <EnvelopeSimpleIcon weight="bold" className="size-6" />
-          <Link
-            className="hover:text-accent-teal font-normal"
-            href="mailto:walterfurrer.dev@gmail.com"
-            target="_blank"
-          >
-            walterfurrer.dev@gmail.com
-          </Link>
+          <p>walterfurrer.dev@gmail.com</p>
         </div>
         <div className="flex gap-2">
           <GithubLogoIcon weight="bold" className="size-6" />

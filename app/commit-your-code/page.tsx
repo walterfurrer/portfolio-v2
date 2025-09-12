@@ -63,7 +63,7 @@ export default function CommitYourCode() {
         <div className="section-content">
           <p>
             You can find my socials and contact information below! I'm always
-            down for a video call to talk tech, jobs, etc. as well! If you're
+            down for a video call to talk tech, jobs, etc. as well. If you're
             interested in scheduling a time to catch up,{" "}
             <Link
               target="_blank"

@@ -24,17 +24,14 @@ export default function Currently() {
           <CodeIcon weight="regular" className="size-6" />
           <p>
             Learning new skills while building{" "}
-            <Link href={"https://github.com/walterfurrer/ev-mngr"}>
-              EV MNGR
-            </Link>
-            .
+            <Link href={"https://ev-mngr.vercel.app/"}>EV MNGR</Link>.
           </p>
         </div>
         <div className="flex gap-2">
           <AirplaneIcon weight="regular" className="size-6" />
           <p>
             Attending the{" "}
-            <Link target="_blank" href="#">
+            <Link target="_blank" href="https://www.commityourcode.com/">
               Commit Your Code Conference
             </Link>{" "}
             9/25 - 9/26.

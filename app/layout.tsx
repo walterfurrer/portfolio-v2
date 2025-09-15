@@ -2,6 +2,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import type { Metadata } from "next";
 import { Lora, Manrope, Space_Mono } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const sans = Manrope({
   variable: "--font-sans",
@@ -49,6 +50,7 @@ export default function RootLayout({
               <main>{children}</main>
             </div>
           </ThemeProvider>
+          <SpeedInsights />
         </div>
       </body>
     </html>

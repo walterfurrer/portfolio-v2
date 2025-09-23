@@ -4,10 +4,12 @@ import {
   BriefcaseIcon,
   CodeIcon,
 } from "@phosphor-icons/react/dist/ssr";
+import CycPageButton from "./CycPageButton";
 
 export default function Currently() {
   return (
     <section id="currently" className="section">
+      <CycPageButton />
       <h2 className="section-header">currently</h2>
       <div className="section-content">
         <div className="flex gap-2">

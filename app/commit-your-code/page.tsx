@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function CommitYourCode() {
   return (
-    <div className="flex flex-col gap-32 px-4 font-sans md:px-0">
+    <div className="flex flex-col gap-12 px-4 font-sans transition-all duration-150 ease-in-out md:gap-32 md:px-0">
       <ModeToggle />
       <CycHeader />
 
@@ -36,7 +36,7 @@ export default function CommitYourCode() {
               Furrer, Thomas Nguyen
             </figcaption>
           </figure>
-          <div className="flex flex-col gap-4">
+          <div className="mt-4 flex flex-col gap-4">
             <p>
               I need to give a huge <span className="font-bold">THANK YOU</span>{" "}
               to the lovely folks pictured above. Since losing my job in

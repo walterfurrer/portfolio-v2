@@ -7,7 +7,7 @@ export default function BackHomeButton() {
     <Button asChild variant="link" className="group flex self-end-safe">
       <Link href="/">
         <ArrowLeftIcon className="inline-block transition-transform duration-150 group-hover:-translate-x-1.5" />
-        View my Portfolio
+        Back to my Portfolio
       </Link>
     </Button>
   );

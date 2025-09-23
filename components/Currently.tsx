@@ -20,8 +20,6 @@ export default function Currently() {
           </p>
         </div>
         <div className="via-accent my-4 h-px w-full bg-gradient-to-r from-transparent to-transparent"></div>
-
-        {/* <hr className="border-1/50 my-4" /> */}
         <div className="flex gap-2">
           <div>
             <CodeIcon weight="regular" size={24} className="h-full" />

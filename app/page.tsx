@@ -7,7 +7,7 @@ import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-32 px-4 font-sans md:px-0">
+    <div className="flex flex-col gap-12 px-4 font-sans transition-all duration-150 ease-in-out md:gap-24 md:px-0 lg:gap-32">
       <ModeToggle />
       <Header />
       <Currently />

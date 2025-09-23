@@ -14,7 +14,7 @@ export default function CycHeader() {
         <div>
           <h1 className="font-sans font-medium">Hi, I'm Walter.</h1>
           <p className="text-muted-foreground">
-            It was great meeting you at Commit Your Code!
+            It was great meeting you at Commit Your Code 2025!
           </p>
         </div>
       </div>

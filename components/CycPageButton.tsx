@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr";
 
 export default function CycPageButton() {
   return (
-    <div className="px-4">
+    <div className="md:px-4">
       <Button
         asChild
         size="sm"

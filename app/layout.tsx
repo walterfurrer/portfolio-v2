@@ -42,7 +42,7 @@ export default function RootLayout({
         <div className="flex flex-col">
           <ThemeProvider
             attribute="class"
-            defaultTheme="light"
+            defaultTheme="system"
             enableSystem
             disableTransitionOnChange
           >

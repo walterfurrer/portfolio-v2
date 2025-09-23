@@ -19,7 +19,7 @@ export default function ContactSection() {
         <div className="flex gap-2">
           <GithubLogoIcon weight="bold" className="size-6" />
           <Link
-            className="hover:text-accent-teal font-normal"
+            className="hover:text-accent font-normal"
             href="https://github.com/walterfurrer"
             target="_blank"
           >
@@ -29,7 +29,7 @@ export default function ContactSection() {
         <div className="flex gap-2">
           <LinkedinLogoIcon weight="bold" className="size-6" />
           <Link
-            className="hover:text-accent-teal font-normal"
+            className="hover:text-accent font-normal"
             href="https://www.linkedin.com/in/walterfurrer/"
             target="_blank"
           >
@@ -39,7 +39,7 @@ export default function ContactSection() {
         <div className="flex gap-2">
           <XLogoIcon weight="bold" className="size-6" />
           <Link
-            className="hover:text-accent-teal font-normal"
+            className="hover:text-accent font-normal"
             href="https://x.com/waltercodes"
             target="_blank"
           >
@@ -49,7 +49,7 @@ export default function ContactSection() {
         <div className="flex gap-2">
           <WebcamIcon weight="bold" className="size-6" />
           <Link
-            className="hover:text-accent-teal font-normal"
+            className="hover:text-accent font-normal"
             href="https://cal.com/walterfurrer"
             target="_blank"
           >

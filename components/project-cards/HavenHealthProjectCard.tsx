@@ -1,6 +1,7 @@
 import {
   GithubLogoIcon,
   GlobeSimpleIcon,
+  YoutubeLogoIcon,
 } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
@@ -66,9 +67,15 @@ export default function HavenHealthProjectCard() {
             >
               <GithubLogoIcon weight="bold" size={24} />
             </Link>
-            <Link target="_blank" href="#">
-              <GlobeSimpleIcon weight="bold" size={24} />
+            <Link
+              target="_blank"
+              href="https://www.youtube.com/live/jhywKK8-DGw?si=_s05aqCCRjMf9kSq&t=2546"
+            >
+              <YoutubeLogoIcon weight="bold" size={24} />
             </Link>
+            {/* <Link target="_blank" href="#">
+              <GlobeSimpleIcon weight="bold" size={24} />
+            </Link> */}
           </div>
         </div>
       </div>

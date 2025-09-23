@@ -13,10 +13,10 @@ export default function Currently() {
         <div className="flex gap-2">
           <BriefcaseIcon weight="regular" className="size-6" />
           <div className="inline-flex">
-            <p>Searching for Web Devloper opportunities.</p>
-            <span className="relative flex size-3">
+            <p>Searching for Front-End Web Developer opportunities.</p>
+            <span className="relative flex size-2">
               <span className="bg-accent-teal absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
-              <span className="bg-accent-teal relative inline-flex size-3 rounded-full"></span>
+              <span className="bg-accent-teal relative inline-flex size-2 rounded-full"></span>
             </span>
           </div>
         </div>
@@ -24,7 +24,13 @@ export default function Currently() {
           <CodeIcon weight="regular" className="size-6" />
           <p>
             Learning new skills while building{" "}
-            <Link href={"https://ev-mngr.vercel.app/"}>EV MNGR</Link>.
+            <Link
+              target="_blank"
+              href={"https://github.com/walterfurrer/fellowship-finder"}
+            >
+              Fellowship Finder
+            </Link>
+            .
           </p>
         </div>
         <div className="flex gap-2">

@@ -46,7 +46,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <div className="container mx-auto mb-32 flex max-w-screen-sm flex-col">
+            <div className="container mx-auto mb-32 flex max-w-prose flex-col">
               <main>{children}</main>
             </div>
           </ThemeProvider>

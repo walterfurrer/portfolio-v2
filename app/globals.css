@@ -123,7 +123,7 @@
     @apply border-border/50 outline-ring/50 scroll-smooth;
   }
   body {
-    @apply bg-background text-foreground font-sans leading-relaxed text-pretty antialiased;
+    @apply bg-background text-foreground font-sans leading-relaxed antialiased;
   }
 
   h1,

@@ -48,7 +48,11 @@ export default function HavenHealthProjectCard() {
               className="hidden dark:flex"
             />
             <Image src={supabase} alt="Supabase Logo" />
-            <Image src={tailwindcss} alt="Tailwind CSS Logo" />
+            <Image
+              src={tailwindcss}
+              alt="Tailwind CSS Logo"
+              className="h-full"
+            />
             <Image
               src={shadcnLight}
               alt="shadcn/ui Logo"

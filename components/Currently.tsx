@@ -11,13 +11,57 @@ export default function Currently() {
       <h2 className="section-header">currently</h2>
       <div className="section-content">
         <div className="flex gap-2">
-          <BriefcaseIcon weight="regular" className="size-6" />
-          <div className="inline-flex">
-            <p>Searching for Front-End Web Developer opportunities.</p>
-            <span className="relative flex size-2">
-              <span className="bg-accent-teal absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
-              <span className="bg-accent-teal relative inline-flex size-2 rounded-full"></span>
-            </span>
+          <div>
+            <BriefcaseIcon weight="regular" size={24} className="h-full" />
+          </div>
+          <p>
+            Searching for Front-End Developer, Support Engineer, or Customer
+            Support roles.
+          </p>
+        </div>
+        <div className="flex gap-2">
+          <div>
+            <CodeIcon weight="regular" size={24} className="h-full" />
+          </div>
+          <p>
+            Developing new skills while building{" "}
+            <Link
+              target="_blank"
+              href={"https://github.com/walterfurrer/fellowship-finder"}
+            >
+              Fellowship Finder
+            </Link>
+            .
+          </p>
+        </div>
+        <div className="flex gap-2">
+          <div>
+            <AirplaneIcon weight="regular" size={24} className="h-full" />
+          </div>
+          <p>
+            Attending the{" "}
+            <Link target="_blank" href="https://www.commityourcode.com/">
+              Commit Your Code Conference
+            </Link>{" "}
+            9/25 - 9/26.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+{
+  /* <div className="flex gap-2">
+          <BriefcaseIcon
+            weight="regular"
+            className="size-10 h-full md:size-6"
+          />
+          <div>
+            <p>
+              Searching for Front-End Developer, Support Engineer, or Customer
+              Support roles.
+            </p>
           </div>
         </div>
         <div className="flex gap-2">
@@ -42,8 +86,5 @@ export default function Currently() {
             </Link>{" "}
             9/25 - 9/26.
           </p>
-        </div>
-      </div>
-    </section>
-  );
+        </div> */
 }

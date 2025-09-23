@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${sans.variable} ${serif.variable} ${mono.variable} flex min-h-screen flex-col`}
+        className={`${sans.variable} ${serif.variable} ${mono.variable} selection-accent flex min-h-screen flex-col`}
       >
         <div className="flex flex-col">
           <ThemeProvider

@@ -15,10 +15,9 @@ export const metadata: Metadata = {
 
 export default function CommitYourCode() {
   return (
-    <div className="flex flex-col gap-16 px-4 font-sans transition-all duration-150 ease-in-out md:gap-24 lg:gap-32">
+    <div className="page-container">
       <ModeToggle />
       <CycHeader />
-
       <section className="section">
         <BackToPortfolioButton />
         <div className="section-header">

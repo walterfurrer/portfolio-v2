@@ -116,28 +116,6 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-@layer base {
-  * {
-    @apply border-border/50 outline-ring/50 scroll-smooth;
-  }
-  body {
-    @apply bg-background text-foreground font-sans leading-relaxed antialiased;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply leading-none tracking-tight text-balance;
-  }
-
-  main a {
-    @apply hover:text-accent font-semibold;
-  }
-}
-
 @layer utilities {
   .section {
     @apply flex flex-col gap-8;
@@ -168,5 +146,33 @@
   }
   .debug {
     @apply border border-red-500;
+  }
+  .page-container {
+    @apply flex flex-col gap-12 px-4 font-sans transition-all duration-150 ease-in-out md:gap-24 md:px-0 lg:gap-32;
+  }
+  .selection-accent {
+    @apply selection:bg-accent/35;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border/50 outline-ring/50 scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans leading-relaxed text-pretty antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply leading-none tracking-tight text-balance;
+  }
+
+  main a {
+    @apply hover:text-accent font-semibold;
   }
 }

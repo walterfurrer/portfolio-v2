@@ -14,7 +14,7 @@ export default function ContactSection() {
       <div className="section-content">
         <div className="flex gap-2">
           <EnvelopeSimpleIcon weight="bold" className="size-6" />
-          <p>walterfurrer.dev@gmail.com</p>
+          <p className="select-all">walterfurrer.dev@gmail.com</p>
         </div>
         <div className="flex gap-2">
           <GithubLogoIcon weight="bold" className="size-6" />

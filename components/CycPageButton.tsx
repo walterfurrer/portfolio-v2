@@ -7,7 +7,7 @@ export default function CycPageButton() {
     <Button
       asChild
       size="sm"
-      className="group flex self-end-safe bg-blue-500 text-neutral-50 hover:bg-blue-400 hover:text-neutral-950"
+      className="group flex self-end-safe bg-blue-500 text-neutral-50 drop-shadow-md hover:-translate-y-0.5 hover:scale-102 hover:bg-blue-400 hover:text-neutral-950 hover:drop-shadow-lg active:translate-y-0.5 active:scale-98 active:drop-shadow-sm"
     >
       <Link href="/commit-your-code">
         Did we meet at CYC '25?

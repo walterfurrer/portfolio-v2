@@ -4,7 +4,7 @@ import waltersangels from "../../public/cyc-angel-investors.png";
 import Image from "next/image";
 import ContactSection from "@/components/ContactSection";
 import Link from "next/link";
-import BackHomeButton from "@/components/BackHomeButton";
+import BackToPortfolioButton from "@/components/BackToMyPortfolioButton";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -15,12 +15,12 @@ export const metadata: Metadata = {
 
 export default function CommitYourCode() {
   return (
-    <div className="flex flex-col gap-12 px-4 font-sans transition-all duration-150 ease-in-out md:gap-32 md:px-0">
+    <div className="flex flex-col gap-16 px-4 font-sans transition-all duration-150 ease-in-out md:gap-24 md:px-0 lg:gap-32">
       <ModeToggle />
       <CycHeader />
 
       <section className="section">
-        <BackHomeButton />
+        <BackToPortfolioButton />
         <div className="section-header">
           <h2>a huge shoutout</h2>
         </div>

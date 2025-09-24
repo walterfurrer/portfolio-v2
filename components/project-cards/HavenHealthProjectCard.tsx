@@ -17,8 +17,8 @@ export default function HavenHealthProjectCard() {
       <div className="card-content">
         <h3 className="project-title">Haven Health</h3>
         <p>
-          A full-stack demo application for a fictional community health clinic
-          built, built with Next.js, Supabase, Tailwind CSS, and shadcn/ui.
+          A full-stack demo application for a fictional community health clinic,
+          built with Next.js, Supabase, Tailwind CSS, and shadcn/ui.
         </p>
         <p>
           Built as part of the{" "}

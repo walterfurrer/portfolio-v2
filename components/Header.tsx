@@ -13,7 +13,7 @@ export default function Header() {
         ></Image>
         <div>
           <h1 className="font-sans font-medium">Hi, I'm Walter.</h1>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-balance">
             A front-end developer helping to bridge the gap between people and
             technology.
           </p>

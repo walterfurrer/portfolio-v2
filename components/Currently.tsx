@@ -16,7 +16,7 @@ export default function Currently() {
           <div>
             <BriefcaseIcon weight="regular" size={24} className="h-full" />
           </div>
-          <p>
+          <p className="w-full">
             Searching for Front-End Developer, Support Engineer, or Customer
             Support roles.
           </p>
@@ -26,11 +26,12 @@ export default function Currently() {
           <div>
             <CodeIcon weight="regular" size={24} className="h-full" />
           </div>
-          <p>
+          <p className="w-full">
             Developing new skills while building{" "}
             <Link
               target="_blank"
               href={"https://github.com/walterfurrer/fellowship-finder"}
+              className="inline-flex"
             >
               Fellowship Finder
             </Link>
@@ -41,9 +42,13 @@ export default function Currently() {
           <div>
             <AirplaneIcon weight="regular" size={24} className="h-full" />
           </div>
-          <p>
+          <p w-full>
             Attending the{" "}
-            <Link target="_blank" href="https://www.commityourcode.com/">
+            <Link
+              target="_blank"
+              href="https://www.commityourcode.com/"
+              className="inline-flex"
+            >
               Commit Your Code Conference
             </Link>{" "}
             9/25 - 9/26.

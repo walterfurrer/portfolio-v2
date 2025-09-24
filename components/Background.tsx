@@ -2,7 +2,7 @@ export default function Background() {
   return (
     <section id="background" className="section">
       <h2 className="section-header">background</h2>
-      <div className="section-content">
+      <div className="section-content text-pretty">
         <p>
           With nearly two decades of experience in B2B account management and
           customer support, I bring a rare, user-centric perspective to software

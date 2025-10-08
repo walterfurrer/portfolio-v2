@@ -17,7 +17,7 @@ export default function Currently() {
             <BriefcaseIcon weight="regular" size={24} className="h-full" />
           </div>
           <p className="w-full">
-            Searching for Front-End Developer, Support Engineer, or Customer
+            Searching for Software Engineer, Support Engineer, or Customer
             Support roles.
           </p>
         </div>

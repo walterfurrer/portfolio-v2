@@ -35,7 +35,7 @@ export default function HavenHealthProjectCard() {
           .
         </p>
         <div className="project-tech-links">
-          <div className="project-technlologies">
+          <div className="project-technologies">
             <Image
               src={nextjsLight}
               alt="Next.js Logo"

@@ -1,4 +1,3 @@
-import Background from "@/components/Background";
 import Currently from "@/components/Currently";
 import Header from "@/components/Header";
 import ModeToggle from "@/components/ModeToggle";
@@ -12,7 +11,6 @@ export default function Home() {
       <Header />
       <Currently />
       <Projects />
-      <Background />
       <ContactSection />
     </div>
   );

@@ -1,98 +1,40 @@
 import Link from "next/link";
 import {
-  AirplaneIcon,
+  BookOpenTextIcon,
   BriefcaseIcon,
-  CodeIcon,
+  LaptopIcon
 } from "@phosphor-icons/react/dist/ssr";
-import CycPageButton from "./CycPageButton";
 
 export default function Currently() {
   return (
     <section id="currently" className="section">
-      <CycPageButton />
       <h2 className="section-header">currently</h2>
       <div className="section-content">
-        <div className="flex gap-2">
+        <article className="flex gap-2">
           <div>
             <BriefcaseIcon weight="regular" size={24} className="h-full" />
           </div>
           <p className="w-full">
-            Searching for Software Engineer, Support Engineer, or Customer
-            Support roles.
+            Employed as a Software Developer at <Link href="https://lightsoveratlanta.com/" target="_blank" rel="noopener noreferrer">Lights Over Atlanta</Link>.
           </p>
-        </div>
-        <div className="via-accent my-4 h-px w-full bg-gradient-to-r from-transparent to-transparent"></div>
-        <div className="flex gap-2">
+        </article>
+        <article className="flex gap-2">
           <div>
-            <CodeIcon weight="regular" size={24} className="h-full" />
+            <BookOpenTextIcon weight="regular" size={24} className="h-full" />
           </div>
           <p className="w-full">
-            Developing new skills while building{" "}
-            <Link
-              target="_blank"
-              href={"https://github.com/walterfurrer/fellowship-finder"}
-              className="inline-flex"
-            >
-              Fellowship Finder
-            </Link>
-            .
+            Reading through <Link href="https://nostarch.com/eloquent-javascript-4th-edition" target="_blank" rel="noopener noreferrer">Eloquent JavaScript</Link> to strengthen my fundamental JavaScript skills.
           </p>
-        </div>
-        <div className="flex gap-2">
+        </article>
+        <article className="flex gap-2">
           <div>
-            <AirplaneIcon weight="regular" size={24} className="h-full" />
+            <LaptopIcon weight="regular" size={24} className="h-full" />
           </div>
-          <p w-full>
-            Attending the{" "}
-            <Link
-              target="_blank"
-              href="https://www.commityourcode.com/"
-              className="inline-flex"
-            >
-              Commit Your Code Conference
-            </Link>{" "}
-            9/25 - 9/26.
+          <p className="w-full">
+            Working through fireship.dev/ui.dev's <Link href="https://fireship.dev/c/react" target="_blank" rel="noopener noreferrer">react.gg</Link> course.
           </p>
-        </div>
+        </article>
       </div>
     </section>
   );
-}
-
-{
-  /* <div className="flex gap-2">
-          <BriefcaseIcon
-            weight="regular"
-            className="size-10 h-full md:size-6"
-          />
-          <div>
-            <p>
-              Searching for Front-End Developer, Support Engineer, or Customer
-              Support roles.
-            </p>
-          </div>
-        </div>
-        <div className="flex gap-2">
-          <CodeIcon weight="regular" className="size-6" />
-          <p>
-            Learning new skills while building{" "}
-            <Link
-              target="_blank"
-              href={"https://github.com/walterfurrer/fellowship-finder"}
-            >
-              Fellowship Finder
-            </Link>
-            .
-          </p>
-        </div>
-        <div className="flex gap-2">
-          <AirplaneIcon weight="regular" className="size-6" />
-          <p>
-            Attending the{" "}
-            <Link target="_blank" href="https://www.commityourcode.com/">
-              Commit Your Code Conference
-            </Link>{" "}
-            9/25 - 9/26.
-          </p>
-        </div> */
 }

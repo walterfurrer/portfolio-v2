@@ -3,7 +3,6 @@ import {
   GithubLogoIcon,
   LinkedinLogoIcon,
   XLogoIcon,
-  WebcamIcon,
 } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
 
@@ -44,16 +43,6 @@ export default function ContactSection() {
             target="_blank"
           >
             x.com/waltercodes
-          </Link>
-        </div>
-        <div className="flex gap-2">
-          <WebcamIcon weight="bold" className="size-6" />
-          <Link
-            className="hover:text-accent font-normal"
-            href="https://cal.com/walterfurrer"
-            target="_blank"
-          >
-            cal.com/walterfurrer
           </Link>
         </div>
       </div>

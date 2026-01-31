@@ -12,10 +12,9 @@ export default function Header() {
           className="rounded-full"
         ></Image>
         <div>
-          <h1 className="font-sans font-medium">Hi, I'm Walter.</h1>
+          <h1 className="font-sans font-medium">Hey, I'm Walter.</h1>
           <p className="text-muted-foreground text-balance">
-            A software engineer helping to bridge the gap between people and
-            technology.
+            A Software Developer who is always hungry to learn more while building great things.
           </p>
         </div>
       </div>

@@ -12,13 +12,13 @@ export default function ContactSection() {
       <h2 className="section-header">contact</h2>
       <div className="section-content">
         <div className="flex gap-2">
-          <EnvelopeSimpleIcon weight="bold" className="size-6" />
-          <p className="select-all">walterfurrer.dev@gmail.com</p>
+          <EnvelopeSimpleIcon weight="regular" size={24} className="h-full" />
+          <p className="select-all font-semibold">walterfurrer.dev@gmail.com</p>
         </div>
         <div className="flex gap-2">
-          <GithubLogoIcon weight="bold" className="size-6" />
+          <GithubLogoIcon weight="regular" size={24} className="h-full" />
           <Link
-            className="hover:text-accent font-normal"
+            className="hover:text-accent font-semibold"
             href="https://github.com/walterfurrer"
             target="_blank"
           >
@@ -26,9 +26,9 @@ export default function ContactSection() {
           </Link>
         </div>
         <div className="flex gap-2">
-          <LinkedinLogoIcon weight="bold" className="size-6" />
+          <LinkedinLogoIcon weight="regular" size={24} className="h-full" />
           <Link
-            className="hover:text-accent font-normal"
+            className="hover:text-accent font-semibold"
             href="https://www.linkedin.com/in/walterfurrer/"
             target="_blank"
           >
@@ -36,9 +36,9 @@ export default function ContactSection() {
           </Link>
         </div>
         <div className="flex gap-2">
-          <XLogoIcon weight="bold" className="size-6" />
+          <XLogoIcon weight="regular" size={24} className="h-full" />
           <Link
-            className="hover:text-accent font-normal"
+            className="hover:text-accent font-semibold"
             href="https://x.com/waltercodes"
             target="_blank"
           >

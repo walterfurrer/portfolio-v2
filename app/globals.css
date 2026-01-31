@@ -60,8 +60,8 @@
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.44 0 0);
-  --accent: oklch(30% 0.16 0);
-  --accent-foreground: oklch(81.57% 0.1409 86.9);
+  --accent: oklch(68.1% 0.162 75.834);
+  --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.14 0 0);
   --input: oklch(0.922 0 0);
@@ -84,7 +84,7 @@
 
 .dark {
   --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
+  --foreground: oklch(92.2% 0 0);
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
@@ -121,10 +121,10 @@
     @apply flex flex-col gap-8 ;
   }
   .section-header {
-    @apply font-mono text-neutral-600 dark:text-neutral-400 text-xl md:px-4;
+    @apply font-mono text-muted-foreground text-xl md:px-4;
   }
   .project-card {
-    @apply hover:bg-card hover:border-border rounded-3xl border-2 border-transparent transition ease-in-out hover:-translate-y-2 hover:scale-102 md:p-4;
+    @apply hover:bg-card hover:border-border border-2 border-transparent transition ease-in-out hover:-translate-y-2 hover:scale-102 md:p-4;
   }
   .section-content {
     @apply flex flex-col gap-4 md:px-4;
@@ -173,6 +173,6 @@
   }
 
   main a {
-    @apply hover:text-accent font-semibold;
+    @apply hover:text-accent font-semibold dark:font-bold;
   }
 }

@@ -9,15 +9,22 @@ export default function Header() {
           alt="Walter Furrer headshot"
           width={96}
           height={96}
-          className="rounded-full"
+          className="object-cover"
         ></Image>
         <div>
           <h1 className="font-sans font-medium">Hey, I'm Walter.</h1>
           <p className="text-muted-foreground text-balance">
-            A Software Developer who is always hungry to learn more while
-            building great things.
+            I’m a software developer who likes figuring things out, learning as
+            I go, and building useful things for the web.
           </p>
         </div>
+        <nav className="page-index" aria-label="Page sections">
+          <a href="#currently">currently</a>
+          <span aria-hidden="true">·</span>
+          <a href="#projects">projects</a>
+          <span aria-hidden="true">·</span>
+          <a href="#contact">contact</a>
+        </nav>
       </div>
     </header>
   );

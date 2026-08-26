@@ -115,13 +115,19 @@
 
 @layer utilities {
   .section {
-    @apply flex flex-col gap-8;
+    @apply flex scroll-mt-8 flex-col gap-8;
   }
   .section-header {
     @apply text-muted-foreground font-mono text-xl md:px-4;
   }
+  .section-heading {
+    @apply flex items-baseline justify-between gap-4;
+  }
+  .section-updated {
+    @apply text-muted-foreground/75 shrink-0 font-mono text-xs md:pr-4;
+  }
   .project-card {
-    @apply hover:bg-card hover:border-border border-2 border-transparent transition ease-in-out hover:-translate-y-2 hover:scale-102 md:p-4;
+    @apply hover:bg-card hover:border-border focus-within:bg-card focus-within:border-border border-2 border-transparent transition ease-in-out hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:translate-y-0 md:p-4;
   }
   .section-content {
     @apply flex flex-col gap-4 md:px-4;
@@ -132,17 +138,53 @@
   .project-title {
     @apply text-xl;
   }
+  .project-heading {
+    @apply flex items-center gap-3;
+  }
+  .project-mark {
+    @apply size-8 shrink-0;
+  }
+  .project-eyebrow {
+    @apply text-muted-foreground flex items-center gap-1.5 font-mono text-xs tracking-wide uppercase;
+  }
+  .project-status-dot {
+    @apply size-1.5 rounded-full bg-[#ec5545];
+  }
   .project-technologies {
     @apply flex size-6 gap-4;
   }
   .project-tech-links {
-    @apply flex flex-row justify-between;
+    @apply flex flex-row items-end justify-between gap-4;
   }
   .project-links {
-    @apply text-muted-foreground/60 flex gap-4;
+    @apply text-muted-foreground/80 flex flex-wrap gap-x-4 gap-y-2;
+  }
+  .project-link {
+    @apply hover:text-foreground focus-visible:text-foreground focus-visible:outline-ring inline-flex items-center gap-1.5 text-sm transition-colors focus-visible:outline-2 focus-visible:outline-offset-2;
+  }
+  .email-copy-button {
+    @apply hover:text-accent focus-visible:text-accent focus-visible:outline-ring inline-flex min-w-0 items-center gap-2 text-left font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2;
+  }
+  .email-copy-status {
+    @apply text-muted-foreground/80 inline-flex shrink-0 items-center gap-1 text-sm font-normal;
+  }
+  .page-index {
+    @apply text-muted-foreground flex flex-wrap items-center gap-2 font-mono text-sm;
+  }
+  .page-index a {
+    @apply hover:text-foreground font-normal transition-colors;
   }
   .page-container {
     @apply flex flex-col gap-12 px-4 font-sans transition-all duration-150 ease-in-out md:gap-24 md:px-0 lg:gap-32;
+  }
+  .site-footer {
+    @apply text-muted-foreground mt-16 border-t px-4 pt-6 font-mono text-xs md:mx-4 md:px-0;
+  }
+  .site-footer a {
+    @apply hover:text-foreground font-normal transition-colors;
+  }
+  .skip-link {
+    @apply bg-foreground text-background focus-visible:outline-ring fixed top-3 left-3 z-50 -translate-y-24 rounded-sm px-3 py-2 font-mono text-sm font-bold transition-transform focus:translate-y-0 focus-visible:outline-2 focus-visible:outline-offset-2 motion-reduce:transition-none;
   }
   .selection-accent {
     @apply selection:bg-accent/35;
@@ -151,7 +193,10 @@
 
 @layer base {
   * {
-    @apply border-border/50 outline-ring/50 scroll-smooth;
+    @apply border-border/50 outline-ring/50;
+  }
+  html {
+    @apply scroll-smooth motion-reduce:scroll-auto;
   }
   body {
     @apply bg-background text-foreground font-sans leading-relaxed antialiased;
@@ -166,7 +211,8 @@
     @apply leading-none tracking-tight text-balance;
   }
 
-  main a {
-    @apply hover:text-accent font-semibold dark:font-bold;
+  main a,
+  .site-footer a {
+    @apply hover:text-accent focus-visible:outline-ring font-semibold focus-visible:outline-2 focus-visible:outline-offset-4 dark:font-bold;
   }
 }

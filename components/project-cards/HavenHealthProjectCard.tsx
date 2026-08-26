@@ -44,46 +44,55 @@ export default function HavenHealthProjectCard() {
             <Image
               src={nextjsLight}
               alt="Next.js Logo"
+              title="Next.js"
               className="dark:hidden"
             />
             <Image
               src={nextjsDark}
               alt="Next.js Logo"
+              title="Next.js"
               className="hidden dark:flex"
             />
-            <Image src={supabase} alt="Supabase Logo" />
+            <Image src={supabase} alt="Supabase Logo" title="Supabase" />
             <Image
               src={tailwindcss}
               alt="Tailwind CSS Logo"
+              title="Tailwind CSS"
               className="h-full"
             />
             <Image
               src={shadcnLight}
               alt="shadcn/ui Logo"
+              title="shadcn/ui"
               className="dark:hidden"
             />
             <Image
               src={shadcnDark}
               alt="shadcn/ui Logo"
+              title="shadcn/ui"
               className="hidden dark:flex"
             />
           </div>
           <div className="project-links">
             <Link
+              className="project-link"
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/walterfurrer/dsd-haven-health"
               aria-label="View Haven Health source code on GitHub"
             >
-              <GithubLogoIcon weight="bold" size={24} />
+              <GithubLogoIcon weight="bold" size={18} aria-hidden="true" />
+              <span>Source</span>
             </Link>
             <Link
+              className="project-link"
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.youtube.com/live/jhywKK8-DGw?si=_s05aqCCRjMf9kSq&t=2546"
               aria-label="Watch the Haven Health presentation on YouTube"
             >
-              <YoutubeLogoIcon weight="bold" size={24} />
+              <YoutubeLogoIcon weight="bold" size={18} aria-hidden="true" />
+              <span>Presentation</span>
             </Link>
           </div>
         </div>

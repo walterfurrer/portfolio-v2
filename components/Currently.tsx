@@ -1,20 +1,26 @@
 import Link from "next/link";
 import {
-  BookOpenTextIcon,
+  AirplaneTakeoffIcon,
   BriefcaseIcon,
-  LaptopIcon,
-  LayoutIcon,
 } from "@phosphor-icons/react/dist/ssr";
 
 export default function Currently() {
   return (
     <section id="currently" className="section">
-      <h2 className="section-header">currently</h2>
+      <div className="section-heading">
+        <h2 className="section-header">currently</h2>
+        <time className="section-updated" dateTime="2026-08">
+          updated August 2026
+        </time>
+      </div>
       <div className="section-content">
-        <article className="flex gap-2">
-          <div>
-            <BriefcaseIcon weight="regular" size={24} className="h-full" />
-          </div>
+        <article className="flex items-start gap-2">
+          <BriefcaseIcon
+            weight="regular"
+            size={24}
+            className="mt-1 shrink-0"
+            aria-hidden="true"
+          />
           <p className="w-full">
             Employed as a Software Developer at{" "}
             <Link
@@ -27,52 +33,23 @@ export default function Currently() {
             .
           </p>
         </article>
-        <article className="flex gap-2">
-          <div>
-            <BookOpenTextIcon weight="regular" size={24} className="h-full" />
-          </div>
+        <article className="flex items-start gap-2">
+          <AirplaneTakeoffIcon
+            weight="regular"
+            size={24}
+            className="mt-1 shrink-0"
+            aria-hidden="true"
+          />
           <p className="w-full">
-            Reading{" "}
+            Attending{" "}
             <Link
-              href="https://nostarch.com/eloquent-javascript-4th-edition"
+              href="https://www.commityourcode.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Eloquent JavaScript
+              The Commit Your Code Conference
             </Link>{" "}
-            to strengthen my fundamental JavaScript skills.
-          </p>
-        </article>
-        <article className="flex gap-2">
-          <div>
-            <LaptopIcon weight="regular" size={24} className="h-full" />
-          </div>
-          <p className="w-full">
-            Working through fireship.dev/ui.dev's{" "}
-            <Link
-              href="https://fireship.dev/c/react"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              react.gg
-            </Link>{" "}
-            course.
-          </p>
-        </article>
-        <article className="flex gap-2">
-          <div>
-            <LayoutIcon weight="regular" size={24} className="h-full" />
-          </div>
-          <p className="w-full">
-            Learning better frontend skills with{" "}
-            <Link
-              href="https://www.frontendmentor.io/home"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Frontend Mentor
-            </Link>
-            .
+            for the second time!
           </p>
         </article>
       </div>

@@ -2,14 +2,11 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
-@plugin "@tailwindcss/typography";
 
 @theme inline {
-  --color-accent-teal: var(--accent-teal);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
-  --font-serif: var(--font-serif);
   --font-mono: var(--font-mono);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -118,10 +115,10 @@
 
 @layer utilities {
   .section {
-    @apply flex flex-col gap-8 ;
+    @apply flex flex-col gap-8;
   }
   .section-header {
-    @apply font-mono text-muted-foreground text-xl md:px-4;
+    @apply text-muted-foreground font-mono text-xl md:px-4;
   }
   .project-card {
     @apply hover:bg-card hover:border-border border-2 border-transparent transition ease-in-out hover:-translate-y-2 hover:scale-102 md:p-4;
@@ -143,9 +140,6 @@
   }
   .project-links {
     @apply text-muted-foreground/60 flex gap-4;
-  }
-  .debug {
-    @apply border border-red-500;
   }
   .page-container {
     @apply flex flex-col gap-12 px-4 font-sans transition-all duration-150 ease-in-out md:gap-24 md:px-0 lg:gap-32;

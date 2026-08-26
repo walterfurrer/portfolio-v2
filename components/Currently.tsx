@@ -3,7 +3,7 @@ import {
   BookOpenTextIcon,
   BriefcaseIcon,
   LaptopIcon,
-  LayoutIcon
+  LayoutIcon,
 } from "@phosphor-icons/react/dist/ssr";
 
 export default function Currently() {
@@ -16,7 +16,15 @@ export default function Currently() {
             <BriefcaseIcon weight="regular" size={24} className="h-full" />
           </div>
           <p className="w-full">
-            Employed as a Software Developer at <Link href="https://lightsoveratlanta.com/" target="_blank" rel="noopener noreferrer">Lights Over Atlanta</Link>.
+            Employed as a Software Developer at{" "}
+            <Link
+              href="https://lightsoveratlanta.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Lights Over Atlanta
+            </Link>
+            .
           </p>
         </article>
         <article className="flex gap-2">
@@ -24,7 +32,15 @@ export default function Currently() {
             <BookOpenTextIcon weight="regular" size={24} className="h-full" />
           </div>
           <p className="w-full">
-            Reading <Link href="https://nostarch.com/eloquent-javascript-4th-edition" target="_blank" rel="noopener noreferrer">Eloquent JavaScript</Link> to strengthen my fundamental JavaScript skills.
+            Reading{" "}
+            <Link
+              href="https://nostarch.com/eloquent-javascript-4th-edition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Eloquent JavaScript
+            </Link>{" "}
+            to strengthen my fundamental JavaScript skills.
           </p>
         </article>
         <article className="flex gap-2">
@@ -32,7 +48,15 @@ export default function Currently() {
             <LaptopIcon weight="regular" size={24} className="h-full" />
           </div>
           <p className="w-full">
-            Working through fireship.dev/ui.dev's <Link href="https://fireship.dev/c/react" target="_blank" rel="noopener noreferrer">react.gg</Link> course.
+            Working through fireship.dev/ui.dev's{" "}
+            <Link
+              href="https://fireship.dev/c/react"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              react.gg
+            </Link>{" "}
+            course.
           </p>
         </article>
         <article className="flex gap-2">
@@ -40,7 +64,15 @@ export default function Currently() {
             <LayoutIcon weight="regular" size={24} className="h-full" />
           </div>
           <p className="w-full">
-            Learning better frontend skills with <Link href="https://www.frontendmentor.io/home" target="_blank" rel="noopener noreferrer">Frontend Mentor</Link>.
+            Learning better frontend skills with{" "}
+            <Link
+              href="https://www.frontendmentor.io/home"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Frontend Mentor
+            </Link>
+            .
           </p>
         </article>
       </div>

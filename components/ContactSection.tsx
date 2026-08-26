@@ -13,7 +13,12 @@ export default function ContactSection() {
       <div className="section-content">
         <div className="flex gap-2">
           <EnvelopeSimpleIcon weight="regular" size={24} className="h-full" />
-          <p className="select-all font-semibold">walterfurrer.dev@gmail.com</p>
+          <a
+            className="font-semibold select-all"
+            href="mailto:walterfurrer.dev@gmail.com"
+          >
+            walterfurrer.dev@gmail.com
+          </a>
         </div>
         <div className="flex gap-2">
           <GithubLogoIcon weight="regular" size={24} className="h-full" />
@@ -21,6 +26,7 @@ export default function ContactSection() {
             className="hover:text-accent font-semibold"
             href="https://github.com/walterfurrer"
             target="_blank"
+            rel="noopener noreferrer"
           >
             github.com/walterfurrer
           </Link>
@@ -31,6 +37,7 @@ export default function ContactSection() {
             className="hover:text-accent font-semibold"
             href="https://www.linkedin.com/in/walterfurrer/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             linkedin.com/in/walterfurrer
           </Link>
@@ -41,6 +48,7 @@ export default function ContactSection() {
             className="hover:text-accent font-semibold"
             href="https://x.com/waltercodes"
             target="_blank"
+            rel="noopener noreferrer"
           >
             x.com/waltercodes
           </Link>

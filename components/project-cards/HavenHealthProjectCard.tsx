@@ -4,12 +4,12 @@ import {
 } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
+import nextjsDark from "../../public/technology-logos/nextjs-dark.svg";
 import nextjsLight from "../../public/technology-logos/nextjs-light.svg";
-import shadcnLight from "../../public/technology-logos/shadcn-light.svg";
 import shadcnDark from "../../public/technology-logos/shadcn-dark.svg";
+import shadcnLight from "../../public/technology-logos/shadcn-light.svg";
 import supabase from "../../public/technology-logos/supabase.svg";
 import tailwindcss from "../../public/technology-logos/tailwindcss.svg";
-import nextjsDark from "../../public/technology-logos/nextjs-dark.svg";
 
 export default function HavenHealthProjectCard() {
   return (
@@ -24,12 +24,17 @@ export default function HavenHealthProjectCard() {
           Built as part of the{" "}
           <Link
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.dallassoftwaredevelopers.org/cohorts"
           >
             Dallas Software Developer Cohort Program
           </Link>{" "}
           ran by{" "}
-          <Link target="_blank" href="https://www.dthompsondev.com/">
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.dthompsondev.com/"
+          >
             Danny Thompson
           </Link>
           .
@@ -66,13 +71,17 @@ export default function HavenHealthProjectCard() {
           <div className="project-links">
             <Link
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/walterfurrer/dsd-haven-health"
+              aria-label="View Haven Health source code on GitHub"
             >
               <GithubLogoIcon weight="bold" size={24} />
             </Link>
             <Link
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.youtube.com/live/jhywKK8-DGw?si=_s05aqCCRjMf9kSq&t=2546"
+              aria-label="Watch the Haven Health presentation on YouTube"
             >
               <YoutubeLogoIcon weight="bold" size={24} />
             </Link>

@@ -14,7 +14,8 @@ export default function Header() {
         <div>
           <h1 className="font-sans font-medium">Hey, I'm Walter.</h1>
           <p className="text-muted-foreground text-balance">
-            A Software Developer who is always hungry to learn more while building great things.
+            A Software Developer who is always hungry to learn more while
+            building great things.
           </p>
         </div>
       </div>

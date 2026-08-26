@@ -1,16 +1,11 @@
 import { ThemeProvider } from "@/components/ThemeProvider";
 import type { Metadata } from "next";
-import { Lora, Manrope, Space_Mono } from "next/font/google";
+import { Manrope, Space_Mono } from "next/font/google";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const sans = Manrope({
   variable: "--font-sans",
-  subsets: ["latin"],
-});
-
-const serif = Lora({
-  variable: "--font-serif",
   subsets: ["latin"],
 });
 
@@ -37,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${sans.variable} ${serif.variable} ${mono.variable} selection-accent flex min-h-screen flex-col`}
+        className={`${sans.variable} ${mono.variable} selection-accent flex min-h-screen flex-col`}
       >
         <div className="flex flex-col">
           <ThemeProvider

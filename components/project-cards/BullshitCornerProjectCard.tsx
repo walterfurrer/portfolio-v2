@@ -7,7 +7,8 @@ import convex from "../../public/technology-logos/convex.svg";
 import shadcnDark from "../../public/technology-logos/shadcn-dark.svg";
 import shadcnLight from "../../public/technology-logos/shadcn-light.svg";
 import tailwindcss from "../../public/technology-logos/tailwindcss.svg";
-import tanstack from "../../public/technology-logos/tanstack.svg";
+import tanstackDark from "../../public/technology-logos/tanstack-dark.svg";
+import tanstackLight from "../../public/technology-logos/tanstack-light.svg";
 
 export default function BullshitCornerProjectCard() {
   return (
@@ -48,7 +49,18 @@ export default function BullshitCornerProjectCard() {
         </p>
         <div className="project-tech-links">
           <div className="project-technologies">
-            <Image src={tanstack} alt="TanStack Logo" title="TanStack Start" />
+            <Image
+              src={tanstackLight}
+              alt="TanStack Logo"
+              title="TanStack Start"
+              className="h-full w-auto dark:hidden"
+            />
+            <Image
+              src={tanstackDark}
+              alt="TanStack Logo"
+              title="TanStack Start"
+              className="hidden h-full w-auto dark:flex"
+            />
             <Image src={convex} alt="Convex Logo" title="Convex" />
             <Image src={clerk} alt="Clerk Logo" title="Clerk" />
             <Image

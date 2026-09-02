@@ -202,6 +202,10 @@
     @apply bg-background text-foreground font-sans leading-relaxed antialiased;
   }
 
+  button {
+    text-box: trim-both cap alphabetic;
+  }
+
   h1,
   h2,
   h3,
